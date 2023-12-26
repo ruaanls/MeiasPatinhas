@@ -68,7 +68,7 @@ footer
     background-color: #022272;
     color: white;
     padding: 4rem 6rem;
-    box-shadow: 0 -10px 10px #aabce7;
+    box-shadow: 0 -5px 5px #aabce7;
     position: relative;
     bottom: 0;
     transition: background-color 0.3s ease;
@@ -264,8 +264,8 @@ footer .redes a
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 3rem;
-    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
 }
 #text-depo span, #text3 > h2 > span
 {
@@ -470,51 +470,3 @@ footer .redes a
 
 }
 
-
-
-/*
-main
-{
-    display: flex;
-    margin: 2rem;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-
-main section
-{
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-}
-
-.title
-{
-    font-family: 'Roboto', sans-serif;
-}
-
-main aside
-{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-main aside h4
-{
-    margin-top: 24px;
-    font-weight: lighter;
-}
-
-main aside h4 span
-{
-    font-weight: bold;
-    color:#022272;
-}
-main aside img
-{
-    height: 50dvh;
-    width: auto;
-
-}
-*/ 
