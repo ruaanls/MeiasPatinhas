@@ -1,44 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 
-
-*
-{
+/* VERSÃO DESKTOP */
+* {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-button
-{
+
+button {
     cursor: pointer;
 }
 
-img
-{
+img {
     object-fit: cover;
 }
-header
-{
+
+header {
     padding: 2rem;
     box-shadow: 0 2px 10px #aabce7;
     position: sticky;
     top: 0;
     left: 0;
     background-color: rgb(236, 236, 236);
+
 }
 
-header nav
-{
+header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
+
 }
 
 
-.cabecalho, .cabecalho a
-{
+.cabecalho,
+.cabecalho a {
     color: #022272;
     display: flex;
     justify-content: space-between;
@@ -51,16 +50,15 @@ header nav
     transition: background-color 0.3s ease;
 }
 
-.cabecalho:hover, .cabecalho a:hover
-{
+.cabecalho:hover,
+.cabecalho a:hover {
     color: #3466e4;
     transition-delay: 50ms;
     transition: color 0.2s ease;
 }
 
 
-footer
-{
+footer {
     display: flex;
     flex-direction: row;
     align-items: baseline;
@@ -74,16 +72,15 @@ footer
     transition: background-color 0.3s ease;
 }
 
-footer a:hover, footer a i:hover
-{
+footer a:hover,
+footer a i:hover {
     color: gray;
     transition-delay: 50ms;
     transition: color 0.3s ease;
 }
 
 
-footer .icon-footer 
-{
+footer .icon-footer {
     color: white;
     display: flex;
     align-items: baseline;
@@ -91,71 +88,65 @@ footer .icon-footer
     text-decoration: none;
 }
 
-footer .redes
-{
+footer .redes {
     text-decoration: none;
     display: flex;
     width: 70%;
     justify-content: flex-end;
-    
+
 }
 
-footer .redes a
-{
+footer .redes a {
     margin-left: 16px;
     color: white;
+    text-decoration: none;
 }
 
-#hero
-{
+#hero {
     display: flex;
     padding: 4rem 0;
 }
 
 
-#appealing-content
-{
+#appealing-content {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0 2rem;
 }
 
-#appealing-content > h1
-{
+#appealing-content>h1 {
     font-weight: 500;
     margin-top: 2rem;
 }
 
-#appealing-content > img
-{
+#appealing-content>img {
     width: 100%;
     border-radius: 50px;
     margin-bottom: 1rem;
 }
 
-#explainer
-{
+#explainer {
     display: flex;
     flex-direction: column;
     padding: 0 2rem;
 }
 
-#explainer > h1, #explainer > h2
-{
+#explainer>h1,
+#explainer>h2 {
     margin-bottom: 2rem;
     font-weight: 500;
     font-size: 1.65rem;
 }
 
-#explainer > h1 > span, #explainer > h2 > span, #appealing-content > h2 > span
-{
+#explainer>h1>span,
+#explainer>h2>span,
+#appealing-content>h2>span {
     color: #022272;
     font-weight: bold;
 }
 
-#cta
-{
+#cta {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -165,21 +156,19 @@ footer .redes a
     padding: 2rem 0;
     color: white;
     font-weight: bold;
-    font-size:x-large;
+    font-size: x-large;
     text-shadow: 3px 3px 8px black;
     transition: background-color 0.3s ease;
-    
+
 }
 
-#cta:hover
-{
+#cta:hover {
     transition-delay: 50ms;
-    background-color:#01174e ;
+    background-color: #01174e;
     transition: background-color 0.3s ease;
 }
 
-#preabout > h1
-{
+#preabout>h1 {
     padding: 1rem 0;
     display: flex;
     justify-content: center;
@@ -187,22 +176,20 @@ footer .redes a
     color: #01174e;
     font-size: xx-large;
 }
-#about
-{
+
+#about {
     display: flex;
     padding: 4rem;
 }
 
-#about > img
-{
+#about>img {
     width: 45%;
     border-radius: 70px;
     border: 3px solid #102b70;
     margin-right: 4rem;
 }
 
-#about > h2
-{
+#about>h2 {
     padding-left: 4rem;
     font-weight: 500;
     line-height: 1.8;
@@ -211,77 +198,71 @@ footer .redes a
     border-radius: 3px;
 }
 
-#about > h2 > span
-{
+#about>h2>span {
     color: #022272;
     font-weight: bold;
     border-bottom: 2.5px solid #3466e4;
 }
 
-#depositions
-{
+#depositions {
     padding: 4rem;
     padding-bottom: 0rem;
     font-weight: normal;
 }
 
-#depositions > #title-depo
-{
+#depositions>#title-depo {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-bottom: 3rem;
-    color:#022272;
+    color: #022272;
     font-size: xx-large;
 }
 
-#depositions > #content > #text-depo
-{
+#depositions>#content>#text-depo {
     height: 40%;
     width: 40%;
 }
 
-#depositions > #content > #box-depo
-{
+#depositions>#content>#box-depo {
     height: 50%;
     width: 60%;
 }
 
-#text-depo > #text1, #text-depo > #text2,  #text3 > h2
-{
+#text-depo>#text1,
+#text-depo>#text2,
+#text3>h2 {
     font-weight: 500;
     text-align: justify;
     line-height: 1.4;
     margin-bottom: 5rem;
 }
 
-#text3
-{
+#text3 {
     margin-bottom: 10px;
 }
-#text3 > h2
-{
+
+#text3>h2 {
     width: 100%;
     display: flex;
     justify-content: center;
     margin-top: 1.5rem;
     margin-bottom: 3rem;
 }
-#text-depo span, #text3 > h2 > span
-{
-    color:#022272;
+
+#text-depo span,
+#text3>h2>span {
+    color: #022272;
     font-weight: bold;
     padding-left: 4px;
 }
 
-#content
-{
+#content {
     display: flex;
     justify-content: space-between;
 }
 
-#content img
-{
+#content img {
     width: 35%;
     height: 10%;
     display: flex;
@@ -289,49 +270,45 @@ footer .redes a
     border-radius: 100%;
 }
 
-#box-depo > #horizontal
-{
+#box-depo>#horizontal {
     display: flex;
     justify-content: space-between;
 }
-#cliente1, #cliente2
-{
+
+#cliente1,
+#cliente2 {
     width: 50%;
     height: 50%;
     margin: 1rem 1.5rem;
     padding: 1.5rem;
     margin-top: 0;
-    background-color: #102b70 ;
+    background-color: #102b70;
     color: white;
     border-radius: 35px;
     flex-wrap: wrap;
     align-content: center;
 }
 
-#box-depo i
-{
+#box-depo i {
     color: goldenrod;
     font-size: xx-large;
 }
 
-#box-depo h2
-{
+#box-depo h2 {
     display: flex;
     justify-content: center;
     padding-bottom: 1rem;
     color: goldenrod
 }
 
-.img
-{
+.img {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-bottom: 2rem;
 }
 
-#account
-{
+#account {
     display: flex;
     padding: 0rem 0rem;
     height: 100%;
@@ -344,74 +321,67 @@ footer .redes a
     background-size: cover;
 }
 
-#account > #title
-{
+#account>#title {
     width: 55%;
     height: 55%;
     padding-left: 9rem;
 }
-#account > #title
-{
+
+#account>#title {
     padding: 1rem;
     font-size: xx-large;
-    color:black;
+    color: black;
     font-weight: bold;
-    background-color: #4778f5;
+    background-color: #5e88f1d3;
     width: 30%;
     height: 30%;
     border-radius: 15px;
     margin-left: 3rem;
 }
 
-#title h1
-{
+#title h1 {
     font-size: xx-large;
 }
 
-#title h2
-{
+#title h2 {
     font-size: x-large;
 }
 
 
-#account > #account-box
-{
-    background-color: #4778f5;
+#account>#account-box {
+    background-color: #5e88f1d3;
     padding: 2rem;
     margin-right: 5rem;
     border-radius: 20px;
     width: 35%;
-    height: 109dvh;
+    height: 100%;
     margin-top: 20px;
+    margin-bottom: 25px;
 }
 
-#account-box h1
-{
+#account-box h1 {
     font-size: 1.85rem;
-    padding-bottom: 0.5rem ;
+    padding-bottom: 0.5rem;
 }
 
-#account-box h2
-{
+#account-box h2 {
     font-size: 1.35rem;
     padding: 1rem 0;
 }
-#account > #account-box > form
-{
+
+#account>#account-box>form {
     display: flex;
     flex-direction: column;
     padding-bottom: 0.5rem 0;
 }
 
-#account-box > form > label
-{
+#account-box>form>label {
     font-size: large;
     padding-top: 0.5rem;
     padding-bottom: 4px;
 }
 
-#account-box > form > input
-{
+#account-box>form>input {
     height: 2.40rem;
     border: 0.15px solid black;
     border: none;
@@ -419,21 +389,18 @@ footer .redes a
     transition: border-bottom 97ms ease-in-out;
 }
 
-#account-box > form > input:focus
-{
+#account-box>form>input:focus {
     outline: none;
     border-bottom: 3px solid #102b70;
 }
 
-#button
-{
+#button {
     display: flex;
     flex-direction: column;
     margin: 2rem 0;
 }
 
-#button > button
-{
+#button>button {
     margin: 5px 0;
     border-radius: 50px;
     border: none;
@@ -441,11 +408,10 @@ footer .redes a
     height: 3rem;
     font-size: 1.10rem;
     font-weight: bold;
-    color:#022272
+    color: #022272
 }
 
-#button-create > button
-{
+#button-create>button {
     height: 3.5rem;
     width: 100%;
     background-color: #01174e;
@@ -458,15 +424,392 @@ footer .redes a
 
 }
 
-#account-box #remember 
-{
+#account-box #remember {
     margin-top: 1rem;
 }
 
-#remember a
-{
-    color:#000e30;
+#remember a {
+    color: #000e30;
     font-weight: bold;
 
 }
 
+
+/* VERSÃO MOBILE  ATE 768 PIXELS */
+
+
+@media only screen and (max-width: 768px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    /* Header*/
+
+    header {
+        padding: 4% 2%;
+        width: 100vw;
+
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+
+    
+
+    @media (min-width: 480px)
+    {
+        .cabecalho h2 {
+        
+            width: 40vw;
+            font-size: 1.25rem;
+            padding-left: 7%;
+        }
+    }
+
+
+
+    .links {
+        width: 100%;
+    }
+
+    .links a li {
+        margin-left: 1rem;
+    }
+
+    .cabecalho,
+    .cabecalho a {
+        margin: 0;
+        font-size: 0.90rem;
+
+    }
+
+    /*Página Inicial */
+
+    #hero {
+        padding: 5% 5%;
+        width: 100%;
+    }
+
+    #explainer {
+        width: 60%;
+        padding: 0 3.5%;
+        padding-top: 2rem;
+    }
+
+    #explainer>h1 {
+        font-size: x-large;
+        margin-bottom: 15%;
+    }
+
+    /* Texto do hero é desabilitada para celular visando melhor experiência */
+    #explainer>#secound-text {
+        display: none;
+    }
+
+    /* A partir de 613px o texto do hero volta a fazer parte do site*/
+    @media (min-width: 613px) {
+        #explainer > #secound-text {
+            display: block;
+            padding-bottom: 5%;
+        }
+    }
+
+    #explainer>h2>span,
+    #explainer h2 {
+        font-size: 1.25rem;
+        padding: 0;
+        margin: 0;
+    }
+
+    #cta {
+        margin-top: 20%;
+        width: 80vw;
+        padding: 1.5rem;
+    }
+
+    #appealing-content {
+        width: 40%;
+        height: 100%;
+        padding: 0;
+    }
+
+
+
+    #appealing-content>img {
+
+        display: block;
+        height: 25vh;
+        width: 100%;
+        margin-bottom: 14%;
+    }
+
+    #appealing-content>h2 {
+        font-size: 1.1rem;
+        width: 100%;
+        margin-bottom: 2rem;
+
+    }
+
+    /*Sobre*/
+
+    #preabout {
+        padding: 5% 5%;
+        width: 100%;
+        text-align: center;
+    }
+
+    #about {
+        padding: 6% 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    #about>img {
+        width: 80vw;
+
+        margin: 2%;
+        margin-bottom: 6%;
+        padding: 0;
+    }
+
+    #about>h2 {
+
+        padding: 2%;
+        border-left: none;
+        border-top: 2.5px solid rgb(68, 68, 68);
+        font-size: large;
+
+    }
+
+    #about>h2>div {
+        display: none;
+    }
+
+    /* Depoimentos dos Clientes */
+    #depositions {
+        margin: 5%;
+        padding: 0;
+    }
+
+    #title-depo {
+        text-align: center;
+    }
+
+    #content {
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+    }
+
+    #text-depo>h2 {
+
+        width: 90vw;
+    }
+
+    #text2 {
+        display: none;
+    }
+
+    #box-depo>#horizontal {
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #cliente1,
+    #cliente2 {
+        width: 100%;
+    }
+
+    #text3>h2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #text3>h2>span {
+        padding: 0;
+    }
+
+    /* Cadastro */
+
+    #account {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #account>#title {
+        display: none;
+    }
+
+    #account>#account-box {
+        margin: 3% 0;
+        width: 90vw;
+        height: 100%;
+        background-color: #5e88f1d3;
+    }
+
+    #remember a {
+        color: black;
+    }
+
+    /* Rodapé */
+
+    footer {
+        width: 100vw;
+        height: 100%;
+        padding: 10% 4%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .icon-footer {
+        width: 25vw;
+    }
+
+    .redes h3 {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .redes #icons {
+        display: flex;
+
+        padding: 3% 0;
+
+
+    }
+
+
+
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) and (orientation: portrait),
+    (min-width: 769px) and (max-width: 1024px) and (orientation: landscape) 
+{
+
+    /*Página Inicial */
+    #appealing-content
+    {
+        margin: 0;
+        padding: 0;
+    }
+    #appealing-content img
+    {
+        width: 38vw;
+
+    }
+
+    #cta
+    {
+        
+        width: 50vw;
+        margin: 5% 0;
+    }
+
+
+    /* SOBRE */
+    #about
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 3%;
+    }
+
+    #about img
+    {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: 40%;
+        margin-bottom: 3%;
+    }
+
+    #about h2
+    {
+        margin: 0;
+        padding: 3%;
+    }
+
+    #about div
+    {
+        display: none;
+    }
+    
+    /* Depoimentos */
+
+    #depositions
+    {
+        padding: 4%;
+    }
+
+    #text-depo h2 
+    {
+        width: 35vw;
+    }
+
+    #horizontal
+    {
+        display: flex;
+        flex-direction: column;
+        width: 59vw;
+    }
+
+    #cliente1, #cliente2
+    {
+        width: 78%;
+        height: 50%;
+    }
+
+    #text3 h2
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0;
+    }
+
+    /* Criação de Conta */
+
+    #account > #title
+    {
+        padding: 3.5%;
+        margin-left: 5%;
+        width: 40vw;
+        background-color: #5e88f1d3;
+    }
+    #title h2
+    {
+        padding-left: 3%;
+        margin: 3% 0;
+    }
+
+    #title h1
+    {
+        width: 100%;
+    }
+
+    #account > #account-box
+    {
+        width: 50vw;
+        height: 100%;
+        margin: 3%;
+        background-color: #5e88f1d3;
+    }
+}
