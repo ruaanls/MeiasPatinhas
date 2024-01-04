@@ -3,7 +3,7 @@
 
 # Sobre o projeto
 
-LINK - 
+LINK - https://meias-patinhas.vercel.app
 
 O Site Meias Patinhas foi **o primeiro projeto front-end feito por minha autoria** durante o curso de HTML e CSS da [Hashtag Programação](https://www.youtube.com/@HashtagProgramacao "Canal da Hashtag Programação")
 
